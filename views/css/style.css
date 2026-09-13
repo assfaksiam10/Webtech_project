@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0a1428;
+    color: #ffffff;
+}
+
+h1, h2, h3 {
+    margin-top: 0;
+}
+
+a {
+    color: #e8792b;
+    text-decoration: none;
+}
+
+span {
+    color: red;
+}
+
+/* ---------- login / register ---------- */
+.authPage {
+    display: flex;
+    height: 100vh;
+}
+
+.authLeft {
+    width: 50%;
+    background-color: #0d1b33;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.authLeft h1 {
+    color: #e8792b;
+    width: 70%;
+}
+
+.authRight {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.authBox {
+    background-color: #12213e;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #1e3157;
+    border-radius: 5px;
+    background-color: #0a1428;
+    color: #ffffff;
+}
+
+.btnOrange {
+    width: 100%;
+    margin-top: 18px;
+    padding: 12px;
+    background-color: #e8792b;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.small {
+    font-size: 13px;
+    color: #8a97ad;
+    text-align: center;
+}
+
+/* ---------- dashboard layout ---------- */
+.layout {
+    display: flex;
+}
+
+.sidebar {
+    width: 220px;
+    background-color: #0d1b33;
+    height: 100vh;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.sidebar a {
+    display: block;
+    padding: 12px;
+    margin-bottom: 8px;
+    color: #ffffff;
+    background-color: #12213e;
+    border-radius: 5px;
+}
+
+.sidebar a:hover {
+    background-color: #1e3157;
+}
+
+.roleTitle {
+    text-align: center;
+}
+
+.roleStudent {
+    color: #2ecc71;
+}
+
+.roleFaculty {
+    color: #9b59b6;
+}
+
+.roleAdmin {
+    color: #e8792b;
+}
+
+.logoutBtn {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #c0392b;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main {
+    flex: 1;
+    padding: 25px;
+}
+
+/* ---------- cards ---------- */
+.cards {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.card {
+    background-color: #12213e;
+    border: 1px solid #1e3157;
+    border-radius: 8px;
+    padding: 18px;
+    flex: 1;
+    text-align: center;
+}
+
+.label {
+    color: #8a97ad;
+    font-size: 13px;
+}
+
+.value {
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 6px;
+    color: #2ecc71;
+}
+
+/* ---------- panel + table ---------- */
+.panel {
+    background-color: #12213e;
+    border: 1px solid #1e3157;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.panel h2 {
+    color: #2e5aac;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #1e3157;
+}
+
+th {
+    background-color: #16264a;
+}
+
+.btnAdd {
+    background-color: #2ecc71;
+    color: #ffffff;
+    border: none;
+    padding: 7px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnRemove {
+    background-color: #c0392b;
+    color: #ffffff;
+    border: none;
+    padding: 7px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
